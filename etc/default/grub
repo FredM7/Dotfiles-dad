@@ -1,0 +1,3 @@
+# We had to add the "pcie_aspm=off" in oredr for the Asus A15 TUF Gaming Laptop with an NVidia Graphics card, to be able to suspend and resume properly.
+
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet pcie_aspm=off"
